@@ -1,0 +1,21 @@
+{
+  "name": "ts-package-develop-template",
+  "description": "パッケージ開発のテンプレート",
+  "version": "0.0.0",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
+  "repository": {
+    "github": ""
+  },
+  "scripts": {
+    "build": "node ./esbuild/build.js && npx tsc"
+  },
+  "devDependencies": {
+    "esbuild": "^0.11.2",
+    "typescript": "^4.2.3"
+  },
+  "files": [
+    "dist"
+  ]
+}
