@@ -5,6 +5,7 @@
   "private": true,
   "main": "dist/index.js",
   "types": "dist/index.d.js",
+  "author": "ym.u.ichiro@gmail.com",
   "repository": {
     "github": "https://github.com/ymuichiro/gas-declare-script-run"
   },
